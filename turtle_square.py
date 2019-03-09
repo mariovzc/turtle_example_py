@@ -1,15 +1,12 @@
-import turtle
+from turtle import *
 
-window = turtle.Screen()
-tortuga = turtle.Turtle()
+move = Turtle()
 
-tortuga.forward(100)
-tortuga.right(90)
-tortuga.forward(100)
-tortuga.right(90)
-tortuga.forward(100)
-tortuga.right(90)
-tortuga.forward(100)
-tortuga.right(90)
 
-window.mainloop()
+count = 0
+while count < 4:
+  move.forward(100)
+  move.right(90)
+  count+=1
+
+mainloop()
